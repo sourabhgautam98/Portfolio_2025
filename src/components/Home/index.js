@@ -10,7 +10,7 @@ const Home = () => {
         playsInline
         className="object-cover fixed w-full h-full"
       >
-        <source src="/images/video.webm" type="video/webm" />
+        <source src="/images/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       
