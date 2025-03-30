@@ -1,15 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 const Home = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <Image
-        src="/next"
+         src="/images/sky.jpg" 
         alt="Background Animation"
         layout="fill"
         objectFit="cover"
         className="fixed"
+        loading = 'lazy' 
       />
       
       <div className="relative h-screen flex items-center justify-center bg-black/40">
