@@ -3,16 +3,11 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+      <img
+        src="/images/sky.gif"
+        alt="Background Animation"
         className="object-cover fixed w-full h-full"
-      >
-        <source src="/images/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      />
       
       <div className="relative h-screen flex items-center justify-center bg-black/40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
