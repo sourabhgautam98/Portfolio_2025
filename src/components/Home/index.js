@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <img
-        src="/images/sky.gif"
+        src="/images/sky.jpg"
         alt="Background Animation"
         className="object-cover fixed w-full h-full"
       />
