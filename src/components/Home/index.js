@@ -3,14 +3,7 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="fixed inset-0 bg-cover bg-center">
-      <Image
-        src="/images/sky.jpg"
-        alt="Background Sky"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-      />
+    <div className="fixed inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/sky.jpg')" }}>
 
       <div className="relative h-screen flex items-center justify-center bg-black/40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
