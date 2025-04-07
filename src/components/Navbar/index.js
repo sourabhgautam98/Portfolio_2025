@@ -18,7 +18,7 @@ export default function Index() {
       <div className="flex items-center">
         <Link href="/">
           <Image
-            src="/assets/logo.svg"
+            src="/assets/logo.png"
             alt="Logo"
             width={40}
             height={40}
