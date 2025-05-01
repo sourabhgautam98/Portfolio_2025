@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen w-full max-w-4xl mx-auto">
