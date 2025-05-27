@@ -17,8 +17,22 @@ const projects = [
     type: "Website",
     projectUrl: "https://ai--tools.vercel.app/",
   },
-  {
+   {
     id: 2,
+    title: "pubg-website",
+    description:
+      "The website appears to be a fan-made or personal project dedicated to PUBG (PlayerUnknown’s Battlegrounds). It's built using modern web technologies, specifically Vite and React, which suggests a focus on performance and modular design.",
+    technologies: [
+      "React.js",
+      "Tailwind",
+      "GSAP",
+    ],
+    image: "/assets/Ai-tools.png",
+    type: "Website",
+    projectUrl: "https://ai--tools.vercel.app/",
+  },
+  {
+    id: 3,
     title: "News Look",
     description:
       "A news website that allows users to read and search for news articles from various sources.",
@@ -28,7 +42,7 @@ const projects = [
     projectUrl: "https://newslook.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Rush-app-Case-Study",
     description:
       "This is a case study of an app which I have designed and you can find the Play store.",
@@ -45,7 +59,7 @@ const projects = [
     projectUrl: "https://www.behance.net/gallery/214947919/Rush-app-Case-Study",
   },
   {
-    id: 4,
+    id: 5,
     title: "SMC-APP-Case-Study",
     description:
       "This is a case study of an app which I have designed and you can find the Play store.",
