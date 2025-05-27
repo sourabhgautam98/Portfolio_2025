@@ -29,7 +29,7 @@ const projects = [
     ],
     image: "/assets/pubg.png",
     type: "Website",
-    projectUrl: "https://ai--tools.vercel.app/",
+    projectUrl: "https://pubg-website-hazel.vercel.app/",
   },
   {
     id: 3,
