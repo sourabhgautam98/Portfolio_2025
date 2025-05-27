@@ -27,7 +27,7 @@ const projects = [
       "Tailwind",
       "GSAP",
     ],
-    image: "/assets/Ai-tools.png",
+    image: "/assets/pubg.png",
     type: "Website",
     projectUrl: "https://ai--tools.vercel.app/",
   },
