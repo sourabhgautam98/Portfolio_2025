@@ -13,7 +13,7 @@ const Home = () => {
             <p className="text-xl text-gray-200 mb-8">UI/UX Developer</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://drive.google.com/file/d/1cdWQVSsbI7Yr2eF-LVSW272VylF-tCXG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1dEEGmqU6KAvRUvruACPoRHba53v3zJq7/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
