@@ -8,10 +8,11 @@ const projects = [
       "AI tools based on common functionalities in those categories: text-to-speech, text-to-image, and background remover.",
     technologies: [
       "Next.js",
-      "Css",
+      "Tailwind CSS",
       "React-Bootstap",
       "MUI",
       "Api Integration",
+      "LLM Models",
     ],
     image: "/assets/Ai-tools.png",
     type: "Website",

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FaLinkedin, FaBehance } from 'react-icons/fa'; // 👈 Import icons
 
 export default function Index() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,9 +14,15 @@ export default function Index() {
     { href: '/Contact', label: 'Contact' },
   ];
 
+  const socialLinks = [
+    { href: 'https://www.linkedin.com/in/sourabhgautam/', icon: <FaLinkedin size={20} />, label: 'LinkedIn' },
+    { href: 'https://www.behance.net/sourabhgautam98', icon: <FaBehance size={20} />, label: 'Behance' },
+  ];
+
   return (
-    <nav className="flex items-center justify-between bg-black/60 shadow-md h-16 px-6 w-full top-0 z-10 fixed border-b border-white/20">
-      <div className="flex items-center">
+    <nav className="flex items-center justify-between bg-black/60 shadow-md h-16 px-20 w-full top-0 z-10 fixed border-b border-white/20">
+
+       <div className="flex items-center">
         <Link href="/">
           <Image
             src="/assets/logo.png"
@@ -51,6 +58,19 @@ export default function Index() {
           >
             {link.label}
           </Link>
+        ))}
+        {socialLinks.map((social, index) => (
+          <a
+            key={index}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-blue-400 py-2 md:py-0 w-full text-center md:w-auto flex items-center gap-1"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {social.icon}
+            <span className="md:hidden">{social.label}</span> {/* Label visible only in mobile */}
+          </a>
         ))}
       </div>
     </nav>
