@@ -8,15 +8,16 @@ const projects = [
       "Mobile e-commerce platform with user panel for browsing products, viewing details, and purchasing phones. Built admin dashboard with product management and order tracking. Used Supabase Storage for product images.",
     technologies: [
       "React",
+      "Tailwind CSS",
       "Node.js",
       "Express.js",
       "MongoDB",
       "Mongoose",
       "Supabase",
     ],
-    image: "/assets/phone-mart.png", 
+    image: "/assets/phone-mart.png",
     type: "Fullstack Website",
-    projectUrl: "https://ecommerce-frontend-three-dusky.vercel.app", 
+    projectUrl: "https://ecommerce-frontend-three-dusky.vercel.app",
   },
   {
     id: 2,
@@ -40,11 +41,7 @@ const projects = [
     title: "pubg-website",
     description:
       "The website appears to be a fan-made or personal project dedicated to PUBG (PlayerUnknown's Battlegrounds). It's built using modern web technologies, specifically Vite and React.",
-    technologies: [
-      "React.js",
-      "Tailwind",
-      "GSAP",
-    ],
+    technologies: ["React.js", "Tailwind", "GSAP"],
     image: "/assets/pubg.png",
     type: "Website",
     projectUrl: "https://pubg-website-hazel.vercel.app/",
