@@ -3,6 +3,23 @@ import Image from "next/image";
 const projects = [
   {
     id: 1,
+    title: "Phone Mart Website",
+    description:
+      "Mobile e-commerce platform with user panel for browsing products, viewing details, and purchasing phones. Built admin dashboard with product management and order tracking. Used Supabase Storage for product images.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Supabase",
+    ],
+    image: "/assets/phone-mart.png", 
+    type: "Fullstack Website",
+    projectUrl: "https://ecommerce-frontend-three-dusky.vercel.app", 
+  },
+  {
+    id: 2,
     title: "Ai Tools",
     description:
       "AI tools based on common functionalities in those categories: text-to-speech, text-to-image, and background remover.",
@@ -18,11 +35,11 @@ const projects = [
     type: "Website",
     projectUrl: "https://ai--tools.vercel.app/",
   },
-   {
-    id: 2,
+  {
+    id: 3,
     title: "pubg-website",
     description:
-      "The website appears to be a fan-made or personal project dedicated to PUBG (PlayerUnknown’s Battlegrounds). It's built using modern web technologies, specifically Vite and React, which suggests a focus on performance and modular design.",
+      "The website appears to be a fan-made or personal project dedicated to PUBG (PlayerUnknown's Battlegrounds). It's built using modern web technologies, specifically Vite and React.",
     technologies: [
       "React.js",
       "Tailwind",
@@ -33,7 +50,7 @@ const projects = [
     projectUrl: "https://pubg-website-hazel.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "News Look",
     description:
       "A news website that allows users to read and search for news articles from various sources.",
@@ -43,7 +60,7 @@ const projects = [
     projectUrl: "https://newslook.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Rush-app-Case-Study",
     description:
       "This is a case study of an app which I have designed and you can find the Play store.",
@@ -60,7 +77,7 @@ const projects = [
     projectUrl: "https://www.behance.net/gallery/214947919/Rush-app-Case-Study",
   },
   {
-    id: 5,
+    id: 6,
     title: "SMC-APP-Case-Study",
     description:
       "This is a case study of an app which I have designed and you can find the Play store.",
@@ -77,6 +94,7 @@ const projects = [
     projectUrl: "https://www.behance.net/gallery/211299697/SMC-APP-Case-Study",
   },
 ];
+
 export default function ProjectsPage() {
   return (
     <div className="pt-20 bg-black">

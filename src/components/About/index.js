@@ -4,8 +4,9 @@ import {
   FaHtml5,
   FaCss3,
   FaFigma,
+  FaNode,
 } from "react-icons/fa";
-import { SiAdobexd, SiNextdotjs } from "react-icons/si";
+import { SiAdobexd, SiNextdotjs, SiExpress, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const skillsData = [
@@ -26,6 +27,24 @@ const skillsData = [
     name: "JavaScript",
     color: "text-yellow-500",
     hoverColor: "hover:text-yellow-600",
+  },
+  {
+    icon: FaNode,
+    name: "Node.js",
+    color: "text-green-500",
+    hoverColor: "hover:text-green-600",
+  },
+  {
+    icon: SiExpress,
+    name: "Express.js",
+    color: "text-gray-300",
+    hoverColor: "hover:text-white",
+  },
+  {
+    icon: SiMongodb,
+    name: "MongoDB",
+    color: "text-green-600",
+    hoverColor: "hover:text-green-500",
   },
   {
     icon: RiTailwindCssFill,
@@ -66,18 +85,16 @@ const About = () => {
         <div className="max-w-4xl space-y-6">
           <h2 className="text-6xl font-bold text-white">About Me</h2>
           <h3 className="text-2xl font-semibold text-gray-300">
-            Front End Developer
+            Full Stack Developer
           </h3>
           <p className="text-gray-300 leading-relaxed">
-            I am a passionate UI/UX Developer with experience in designing and
-            developing modern, user-centric web applications. I specialize in
-            creating intuitive, responsive interfaces using React.js, Next.js,
-            and industry-standard design tools like Figma. With a strong
-            foundation in design thinking, user research, and front-end
-            development, I aim to craft seamless digital experiences that
-            enhance usability and engagement. My goal is to bridge the gap
-            between design and technology, delivering solutions that are both
-            aesthetically pleasing and functionally efficient.
+            I am a passionate Full Stack Developer with a strong focus on
+            building modern, responsive, and user-centric web applications. I
+            specialize in technologies like React.js, Next.js, Node.js, and
+            Express.js, and bring interfaces to life using Figma, Tailwind CSS,
+            and Material UI. With a solid understanding of design principles,
+            usability, and accessibility, I turn design ideas into interactive
+            and efficient digital experiences.
           </p>
         </div>
         <div className="grid grid-cols-4 gap-8 mt-8">
