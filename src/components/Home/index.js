@@ -21,7 +21,7 @@ const Home = () => {
             <p className="text-xl text-gray-200 mb-8">Full Stack Developer</p>
             <div className="grid grid-cols-1 sm:flex gap-4 justify-center">
               <a
-                href="https://drive.google.com/file/d/1dEEGmqU6KAvRUvruACPoRHba53v3zJq7/view?usp=sharing"
+                href="https://drive.google.com/file/d/1JQgtccCMrThJb2J0gqj1I_xO6LfEZvCd/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center"
