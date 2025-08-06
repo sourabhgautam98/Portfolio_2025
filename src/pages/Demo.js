@@ -1,12 +1,11 @@
-import React from 'react'
-import Demo from '../components/Demo/index'
+import Spline from '@splinetool/react-spline';
 
-const demo = () => {
+export default function Home() {
   return (
-    <div>
-      <Demo/>
-    </div>
-  )
+    <main>
+      <Spline
+        scene="https://prod.spline.design/vTaFiSHLcKcqbHKU/scene.splinecode" 
+      />
+    </main>
+  );
 }
-
-export default demo
