@@ -4,15 +4,14 @@ import Spline from '@splinetool/react-spline';
 
 const Home = () => {
   return (
-    <div className="fixed inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/assets/sky.jpg')" }}>
-      <div className="relative h-screen flex items-center justify-center bg-black/40">
+    <div className="fixed inset-0 bg-cover bg-center" >
+      <div className="relative h-screen flex items-center justify-center bg-black">
         <div className="absolute inset-0 z-0">
           <Spline 
-            scene="https://prod.spline.design/vTaFiSHLcKcqbHKU/scene.splinecode"
+           scene="https://prod.spline.design/w-aiDZWhODXvQIbT/scene.splinecode"
             className="w-full h-full"
           />
         </div>
-        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
           <div className="max-w-lg mx-auto w-full text-center mt-16 md:mt-32">
             <h1 className="text-4xl font-bold text-white mb-4">
