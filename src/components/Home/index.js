@@ -22,11 +22,11 @@ const Home = () => {
           className="w-full h-full"
         />
         {/* Gradient overlay to improve text readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent pointer-events-none" />
       </div>
 
       {/* Content */}
-      <div className="relative h-screen flex items-center justify-center z-10">
+      <div className="relative h-screen flex items-center justify-center z-10 pointer-events-none">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl mx-auto w-full text-center mt-16 md:mt-24">
             {/* Badge */}
@@ -35,6 +35,7 @@ const Home = () => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
+              className="pointer-events-auto"
             >
               <span className="inline-block px-5 py-2 mb-6 rounded-full bg-white/[0.06] border border-white/[0.1] text-sm font-medium text-gray-300 tracking-widest uppercase backdrop-blur-md">
                 Full-Stack AI Developer
@@ -47,7 +48,7 @@ const Home = () => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight"
+              className="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight pointer-events-auto"
             >
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-violet-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
@@ -61,7 +62,7 @@ const Home = () => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed"
+              className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed pointer-events-auto"
             >
               Building AI-powered apps with{" "}
               <span className="text-white font-medium">MERN</span> +{" "}
@@ -74,7 +75,7 @@ const Home = () => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="flex flex-col sm:flex-row gap-4 justify-center"
+              className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto"
             >
               <a
                 href="https://www.linkedin.com/in/sourabhgautam/"
